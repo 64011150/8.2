@@ -48,7 +48,7 @@ int main()
 		for (j = 0; j < 3; j++)
 		{
 			int sum = 0;
-			for (k = 0; k < 3; ++k)
+			for (k = 0; k < 3; k++)
 				sum = sum + (A[i][k] * B[k][j]);
 			    multiply[i][j] = sum;
 		}
